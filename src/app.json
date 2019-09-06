@@ -1,0 +1,75 @@
+{
+    "pages": [
+        "pages/index/main",
+        "pages/logs/main",
+        "pages/counter/main"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "待办",
+        "navigationBarTextStyle": "black"
+    },
+    "usingComponents": {
+        "van-button": "./vant-weapp/dist/button/index"
+      },      
+    "tabBar": {
+        "color": "#999",
+        "backgroundColor": "#fafafa",
+        "selectedColor": "#333",
+        "borderStyle": "white",
+        "list": [
+            {
+                "text": "待办",
+                "pagePath": "pages/index/main",
+                "iconPath": "static/tabs/home.png",
+                "selectedIconPath": "static/tabs/home-active.png"
+            },
+            {
+                "text": "消息",
+                "pagePath": "pages/logs/main",
+                "iconPath": "static/tabs/orders.png",
+                "selectedIconPath": "static/tabs/orders-active.png"
+            },
+            {
+                "text": "应用",
+                "pagePath": "pages/logs/main",
+                "iconPath": "static/tabs/orders.png",
+                "selectedIconPath": "static/tabs/orders-active.png"
+            },
+            {
+                "text": "我的",
+                "pagePath": "pages/logs/main",
+                "iconPath": "static/tabs/orders.png",
+                "selectedIconPath": "static/tabs/orders-active.png"
+            }
+        ],
+        "items": [
+            {
+                "name": "待办",
+                "pagePath": "pages/index/main",
+                "icon": "static/tabs/home.png",
+                "activeIcon": "static/tabs/home-active.png"
+            },
+            {
+                "name": "消息",
+                "pagePath": "pages/logs/main",
+                "icon": "static/tabs/orders.png",
+                "activeIcon": "static/tabs/orders-active.png"
+            },
+            {
+                "name": "应用",
+                "pagePath": "pages/logs/main",
+                "icon": "static/tabs/orders.png",
+                "activeIcon": "static/tabs/orders-active.png"
+            },
+            {
+                "name": "我的",
+                "pagePath": "pages/logs/main",
+                "icon": "static/tabs/orders.png",
+                "activeIcon": "static/tabs/orders-active.png"
+            }
+        ],
+        "position": "bottom"
+    }
+}
